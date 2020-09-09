@@ -16,7 +16,7 @@ library(babynames)
 
 ## Mitchell Trends
 ```{r, echo=FALSE, message=FALSE}
-praise::praise()
+
 
 babynames::babynames%>%filter(name=="Mitchell")%>%
   ggplot(aes(x=year,  y=prop))+geom_line()+theme_classic()+ theme(axis.text=element_text(size=24),axis.title=element_text(size=20,face="bold"),
