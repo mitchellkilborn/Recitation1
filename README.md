@@ -1,2 +1,2 @@
 # Recitation1
-Its the first recitation
+There should be some description of the project contents here.
